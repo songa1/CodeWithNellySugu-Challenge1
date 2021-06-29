@@ -29,7 +29,7 @@ function show(user) {
     btn.textContent = `Get User’s Posts`
 
     btn.addEventListener('click', () => {
-        location.assign(`/posts.html#${user.id}`);
+        location.assign(`./posts.html#${user.id}`);
         localStorage.setItem('editor', user.name);
     })
     

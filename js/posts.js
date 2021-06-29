@@ -35,6 +35,6 @@ function show(post) {
 let arrow = document.getElementById('arrow');
 
 arrow.addEventListener('click',()=>{
-    location.assign(`index.html`)
+    location.assign(`./index.html`)
     localStorage.removeItem('editor')
 })
