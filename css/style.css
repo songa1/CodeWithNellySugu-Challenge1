@@ -75,3 +75,12 @@ button:active {
     color: rgb(10, 93, 161);
     font-weight: bold;
 }
+
+@media (max-width: 768px) {
+    .container {
+        display: grid;
+        grid-template-columns: 5% 90% 5%;
+        justify-content: center;
+        align-items: center;
+    }
+}
